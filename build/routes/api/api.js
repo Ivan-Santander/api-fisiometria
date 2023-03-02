@@ -1,4 +1,4 @@
-
+"use strict";
 ///CREATE AUDIT
 /**
  * @openapi
@@ -42,11 +42,7 @@
  *      security:
  *       - bearerAuth: []
  */
-
-
-
 ///GET AUDIT
-
 /**
  * @openapi
  * /api/audit/{id}:
@@ -70,8 +66,6 @@
  *      security:
  *       - bearerAuth: []
  */
-
-
 ///UPDATE AUDITS
 /**
  * @openapi
@@ -103,8 +97,6 @@
  *      security:
  *       - bearerAuth: []
  */
-
-
 ///DELETE AUDITS
 /**
  * @openapi

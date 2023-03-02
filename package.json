@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn api/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node build/index.js",
     "g-e": "node aris.js",
     "config": "node config.js",
     "test": "npx jest"

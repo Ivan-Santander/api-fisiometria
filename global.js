@@ -1,1 +1,0 @@
-global.nameFile = "aris.json"; 
