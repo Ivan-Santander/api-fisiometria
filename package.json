@@ -53,5 +53,8 @@
     "preset": "ts-jest",
     "resetMocks": true,
     "clearMocks": true
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
