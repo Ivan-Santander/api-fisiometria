@@ -53,5 +53,8 @@
     "preset": "ts-jest",
     "resetMocks": true,
     "clearMocks": true
+  },
+  "engines": {
+    "npm": "7.x"
   }
 }
