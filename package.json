@@ -34,6 +34,9 @@
     "typeorm": "0.3.6",
     "typescript": "^4.6.3"
   },
+  "resolutions": {
+    "ts-node": "10.9.1"
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.7",
     "@types/express-handlebars": "^6.0.0",
