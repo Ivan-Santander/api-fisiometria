@@ -5,12 +5,12 @@ export class AppSettings {
     public static SERVER_ENVIRONMENT = `http://${AppSettings.getServerIpAddress()}:`
     public static API_ENDPOINT= AppSettings.SERVER_ENVIRONMENT+AppSettings.PORT+'/api/'
 
-    public static TYPE = 'postgres'
-    public static HOSTDB = 'localhost'
-    public static PORTDB = '5432'
-    public static USERDB = 'postgres'
-    public static PWDB = 'admin'
-    public static DB = 'deliv'
+    public static TYPE = 'postgres';
+    public static HOSTDB = 'be4care-postgres-azure.postgres.database.azure.com';
+    public static PORTDB = '5432';
+    public static USERDB = 'agonzalez@be4care-postgres-azure';
+    public static PWDB = 'Gpsglobal2014';
+    public static DB = 'b4care-api-express';
 
     private static getServerIpAddress(): string {
         const interfaces = os.networkInterfaces();
